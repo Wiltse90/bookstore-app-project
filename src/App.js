@@ -1,16 +1,14 @@
+import React from 'react';
 import './App.css';
-
+import Form from './components/form/Form';
+import Header from './components/header/Header';
 function App() {
   return (
-    <div className="App">
-      <h1>Hello Steven Wiltse!</h1>
-      <p>
-        Week1 Assignment<br></br>
-        SPRING 100 CSC 435 Adv Web App Development<br></br>
-        03/20/2022
-      </p>
+    <div className='App'>
+    <Header />
+    <Form/>
     </div>
   );
 }
-
+ 
 export default App;
